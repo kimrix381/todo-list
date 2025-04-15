@@ -123,8 +123,8 @@ const App = () => {
         </div>
         <button
           onClick={() => {
-            localStorage.removeItem("todos"); // Clear stored tasks
-            setTodos([]); // Reset state to empty
+            localStorage.removeItem("todos");
+            setTodos([]);
           }}
           className="px-6 py-3 w-[100%] bg-red-600 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out hover:bg-red-700 hover:shadow-lg active:scale-95"
         >
